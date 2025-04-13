@@ -1,5 +1,6 @@
 
 import './App.css'
+import Navbar from './components/NavBar/NavBar'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -7,8 +8,7 @@ function App() {
   return (
     <>
       
-      <h1 className='text-4xl '>Vite + React</h1>
-      <p className='docs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores quos voluptatem, vel perferendis omnis enim expedita. Voluptatibus, deserunt exercitationem sapiente culpa quae, modi neque molestias soluta aut, labore temporibus.c</p>
+      <Navbar />
       
     </>
   )
